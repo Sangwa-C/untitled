@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{#block "title"}}Hero Squad{{/block}}</title>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <style>
+
+     .logo{
+        width:100px;
+        height:100px;
+     }
+
+    #all{
+        background-image:url("https://capi.myleasestar.com/v2/dimg/65420975/1083x784/65420975.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        height:900px;
+        color:white;
+        left:0;
+        right:0;
+        top:0;
+    }
+
+    .home{
+    text-align:center;
+    margin-top:400px;
+    }
+
+    .words{
+    text-align:center;
+    margin-bottom:50px;
+    }
+
+    .footer {
+        padding-top:10px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height:40px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin-top:10px;
+
+    }
+
+    .services{
+    margin-top:200px;
+    height:800px;
+    }
+
+    .rwa{
+    width:80%
+    }
+
+    .col-sm-4{
+        text-align:center;
+        left:50px;
+        border-style: ridge;
+    }
+
+    .city{
+    margin-top:70px;
+    background-image:url(https://uploads-ssl.webflow.com/5a65a3e2b7d11f0001572c3b/5aa69b4df3391400013c1ca2_media-header.jpg);
+    height:400px;
+    }
+
+    .twentyfour{
+     padding-top:200px;
+    }
+
+    .well{
+        opacity:0.8;
+        color:white;
+        text-align:center;
+        background-color:black;
+        height:380px;
+    }
+
+    </style>
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">Rent</a></li>
+<!--            <li><a href='/addsighting'><img src="/images/logo2.png" class="logo"></a> </li>-->
+            <li><a href="#">List your rental</a></li>
+            <li><a href='/addsighting'>Contact</a> </li>
+        </ul>
+    </div>
+</nav>
+
+<!--<div class="container">-->
+    <!--begin main template-->
+
+    <div class="col-md-12">
+        {{#block "content"}}
+        {{/block}}
+
+    </div>
+<!--</div>-->
+
+<div class="footer">
+    <p>Bella Cassa © 2019</p>
+</div>
+
+
+<!--end main template-->
+{{#block "footer"}}
+
+    </body>
+    </html>
+{{/block}}
+
+
