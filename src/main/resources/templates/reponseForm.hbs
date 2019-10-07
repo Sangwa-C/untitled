@@ -1,0 +1,196 @@
+{{#partial "content"}}
+    <body >
+
+    <br><br><br><br>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+
+    <p><iframe style="margin-left:20%"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15950.126763657758!2d30.091284575540552!3d-1.9399016317962434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6c43a09d8a5%3A0xfb4f1ab02ad0cbab!2sNyarutarama%2C%20Kigali!5e0!3m2!1sen!2srw!4v1570128032850!5m2!1sen!2srw" width="1100" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+    {{!-- <img src="images/output-onlinejpgtools.png"> --}}
+    <div style="box-shadow:0 6px 7px black;color:black;width:60%;margin-left:20%;font-family:monospace;font-style:oblique" class="well">
+        <div class="row">
+            <div style="margin-left:15%" class="col-md-6">
+                <h1 style="font-family: 'Be Vietnam', sans-serif;">Please fill in the following :</h1>
+                <form   action="/fill" method="post">
+                    <div  class="form-group">
+                        <label for="mail">Enter your email</label>
+                        <input id="mail" name="mail" class="form-control" type="text" placeholder="name@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="depRole">Comment</label><br>
+                        {{!--      <p>Fill in your special comment or request for more information</p> --}}
+
+                        <textarea rows="7" cols="55"></textarea>
+                    </div>
+                    <p>Have you liked the house? Please contact us in the contact section.</p>
+                    <button type="submit" class="btn" style="color:black;">Submit!</button>
+                </form>
+            </div>
+
+        </div>
+
+
+        <hr>
+    </div>
+    <div class="footer">
+        <footer style="background-color:#01111C;color:white" class="page-footer font-small unique-color-dark">
+            ​
+            <div>
+                ​
+                <div class="text-center text-md-left mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+                            ​
+                            <img style="padding-top:60px ;"src="https://s3-us-east-2.amazonaws.com/designevo/projects/uid-678729/4926a6ca043718e7dc4583310d886731/preview.png?t=1570140153631" class="imgf" style="padding-top:0px;">
+                            ​                        <br><br>
+                            <p class="pfooter">Bella Casa Group is committed to ensuring digital accessibility for each and every individual. We are continuously working to improve the accessibility of our web experience for everyone, and we welcome feedback and accommodation requests. kindly  <a href="/" style="color:#4FA1DE"> reach to us!</a></p>
+                            ​
+                        </div>
+                        ​
+                        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+                            ​
+                            <!-- Links -->
+                            <h6 class="text-uppercase font-weight-bold" style="font-family: 'Cormorant Garamond', serif ;padding-top:40px ; font-size:1.6em">Useful links</h6>
+                            <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="margin-left:200px;margin-right:200px;">
+                            <br>
+                            ​
+                            <p>
+                                <a href="#!">Buy</a>
+                            </p>
+                            <p>
+                                <a href="#!">Rent</a>
+                            </p>
+                            <p>
+                                <a href="#!">Sell</a>
+                            </p>
+                            <p>
+                                <a href="#!">List your rental</a>
+                            </p>
+                            ​
+                        </div>
+                        ​
+                        <div class="col-md-4 col-lg-4 col-xl-2 mx-auto mb-md-0 mb-4">
+                            ​
+                            <h6 class="text-uppercase font-weight-bold" style="font-family: 'Cormorant Garamond', serif; font-size:1.6em ;padding-top:59px ;">Contact</h6>
+                            <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="margin-left:200px;margin-right:200px;">
+                            <br>
+                            <p>
+                                <i class="fa fa-home"></i> Kigali, Rwanda, KK194</p>
+                            <p>
+                                <i class="fa fa-envelope"></i> bellacasa@gmail.com</p>
+                            <p>
+                                <i class="fa fa-phone"></i> + 250 787 702 494</p>
+                            <p>
+                                <i class="fa fa-print"></i> + 250 782 973 810</p>
+                            ​
+                        </div>
+                        ​
+                    </div>
+                    ​                 <hr>
+                    <div class="footer-copyright text-center py-3" style="margin-bottom: 0;">Bella Casa © 2019:
+                        <a href="https://mdbootstrap.com/education/bootstrap/"> bellacasa.com</a>
+                    </div>
+                    <hr>
+                </div>
+
+            </div>
+        </footer>
+        ​
+        ​
+        ​
+    </div>
+
+    </body>
+    <style>
+body{
+background-color:white;
+ background-image:url("");
+background-size:cover;
+background-repeat:no-repeat;
+}
+.well{
+background-image:url("https://images.unsplash.com/photo-1522794338816-ee3a17a00ae8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+background-size:cover;
+background-repeat:no-repeat;
+}
+.navbar{
+    background-color:#01111C;
+    padding-left:600px;
+    padding-top:40px;
+    }
+​
+    .nartop{
+    margin-top:40px;
+    font-family: 'Satisfy', cursive;
+    }
+    .imgf{
+        width:150px;
+        height:150px;
+        }
+    ​
+        li{
+         font-size:2.3em;
+        }
+         .logo{
+                width:100px;
+                height:100px;
+             }
+              .home{
+                 background-color:black;
+                 opacity:0.7;
+                 text-align:center;
+                 margin-top:400px;
+                 font-family: 'Playfair Display', serif;
+                 font-size:2em;
+                 font-weight:bold
+             ​
+                 }
+             ​
+                 .btn{
+                     font-size:1.1em;
+                     color:#1D5884;
+                     background-color: white;
+                     padding: 16px 32px;
+                     text-align: center;
+                     font-size: 20px;
+                     margin: 4px 2px;
+                     transition: 0.3s;
+                 }
+             ​
+                  .btn:hover {
+                     background-color: #1D5884;
+                     color: white;
+                  }
+             ​
+                  a:hover{
+                  text-decoration:none;
+                  color: white;
+                  }
+             ​
+              /*    .words{
+                 text-align:center;
+                 margin-bottom:90px;
+                 } */
+                 .footer {
+                         font-family: 'Cormorant Garamond', serif;
+                         background-color:#01111C;
+                         color:white;
+                         padding-top:40px;
+                         margin-top:800px;
+                         margin-right:0;
+                         margin-bottom:10px;
+                         height:530px;
+                         font-size:1.5em;
+                     }
+</style>
+{{/partial}}
+
+{{> layout.hbs}}

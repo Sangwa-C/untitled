@@ -1,0 +1,22 @@
+{{#partial "content"}}
+    {{ name }}
+    {{#if posts}}
+
+        {{#each posts}}
+
+            <h1 style="color:black">Current post:</h1>
+            <p style="color:black">Name: {{ name }}</p>
+            <p style="color:black">Name: {{ email }}</p>
+            <p style="color:black">Name: {{ property }}</p>
+            <p style="color:black">Name: {{ location }}</p>
+            <p style="color:black">Name: {{ meansOfPayment }}</p>
+            <p style="color:black">Name: {{ price }}</p>
+        {{/each}}
+    {{else}}
+        <p>No house!</p>
+
+    {{/if}}
+
+{{/partial}}
+
+{{> layout.hbs}}

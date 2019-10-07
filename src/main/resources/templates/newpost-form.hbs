@@ -1,0 +1,78 @@
+{{#partial "content"}}
+<style>
+    form{
+    text-align:center;
+    background-color:black;
+    color:black;
+    opacity:0.7;
+    }
+
+      input{
+    margin-left:700px;
+    }
+
+      .form-control{
+    width:25em;
+    text-align:center;
+    }
+
+    .well{
+    height:700px!important;
+    background-color:black !important;
+    opacity:0.7!important;
+    }
+
+    .footer{
+    margin-top:1500px;
+    background-color:#01111C;
+    font-family: 'Cormorant Garamond', serif;
+    color:white;
+    margin-right:0;
+    height:530px;
+    font-size:1.5em;
+
+    }
+
+
+</style>
+
+    <div style="background-color:black !important;opacity:0.9!important;" class="well">
+        <form action="/add" method="post">
+            <h1 style="color:white">Add house!!!!!!</h1>
+
+            <div class="form-group">
+                <label for="name" style="color:white"> Name</label><br>
+                <input id="name" style="color:black" name="name" type="text" class="form-control"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="email" style="color:white">email</label><br>
+                <input id="email" Name="email" type="text" style="color:black" class="form-control"><br>
+            </div>
+
+
+            <div class="form-group">
+                <label for="location" style="color:white">location</label><br>
+                <input id="location" style="color:black" name="location" type="text" class="form-control"><br>
+            </div>
+
+
+            <div class="form-group">
+                <label for="property" style="color:white">Property</label><br>
+                <input id="property" name="property" style="color:black" type="text" placeholder="Picture Link https://www.link"  class="form-control"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="meansOfPayment" style="color:white">means Of Payment</label><br>
+                <input id="meansOfPayment" name="meansOfPayment" style="color:black" type="text" class="form-control"><br><br>
+            </div>
+
+            <button type="submit" class="btn btn-default" >Add</button><br>
+        </form>
+
+    </div>
+
+
+{{/partial}}
+
+{{> layout.hbs}}
